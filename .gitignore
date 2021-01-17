@@ -7,3 +7,6 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Translated JS files and node_modules for Lambda
+resources/lib

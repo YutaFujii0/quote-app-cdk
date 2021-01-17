@@ -41,6 +41,32 @@
     "@aws-cdk/cx-api" "1.85.0"
     constructs "^3.2.0"
 
+"@aws-cdk/aws-apigatewayv2-integrations@^1.85.0":
+  version "1.85.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-integrations/-/aws-apigatewayv2-integrations-1.85.0.tgz#b5c92a640174878659668bd7f0b290a49a496329"
+  integrity sha512-mZjFaUZq8jlcQx7z0d95ehaDqSRvXi4tv4UU5Q+U8/AJunRgY2a0GNlOv4fPljxiugQhJQvO+AMuygEyoPnhIQ==
+  dependencies:
+    "@aws-cdk/aws-apigatewayv2" "1.85.0"
+    "@aws-cdk/aws-ec2" "1.85.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.85.0"
+    "@aws-cdk/aws-iam" "1.85.0"
+    "@aws-cdk/aws-lambda" "1.85.0"
+    "@aws-cdk/aws-servicediscovery" "1.85.0"
+    "@aws-cdk/core" "1.85.0"
+    constructs "^3.2.0"
+
+"@aws-cdk/aws-apigatewayv2@1.85.0", "@aws-cdk/aws-apigatewayv2@^1.85.0":
+  version "1.85.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2/-/aws-apigatewayv2-1.85.0.tgz#a951326cca7d19576b2d5ea45a74f2bbb6a4b71d"
+  integrity sha512-e1zHGPM22lEKej+zHZvi7Jo8EyVQVVcvzcsgfmwDrrfAQLRfdcAVxylFRssvMbelLapYlG3blV8ANMo94pOGNg==
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.85.0"
+    "@aws-cdk/aws-cloudwatch" "1.85.0"
+    "@aws-cdk/aws-ec2" "1.85.0"
+    "@aws-cdk/aws-iam" "1.85.0"
+    "@aws-cdk/core" "1.85.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/aws-applicationautoscaling@1.85.0":
   version "1.85.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-applicationautoscaling/-/aws-applicationautoscaling-1.85.0.tgz#e7c2dfa5ae8cadf069298218ea8a15fb31349a29"
@@ -183,7 +209,7 @@
     "@aws-cdk/core" "1.85.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-iam@1.85.0":
+"@aws-cdk/aws-iam@1.85.0", "@aws-cdk/aws-iam@^1.85.0":
   version "1.85.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-iam/-/aws-iam-1.85.0.tgz#d32132159605e9476840944466289768b9857470"
   integrity sha512-8ToYOfs4ATDHq96LzpSX8+HHZ8cvr3TBI4BS2an1wiNlYFeF857qV3Jwxn9pG3n6b6/vG7XpHqQQbqFdWETNzQ==
@@ -272,6 +298,17 @@
     "@aws-cdk/aws-kms" "1.85.0"
     "@aws-cdk/core" "1.85.0"
     "@aws-cdk/cx-api" "1.85.0"
+    constructs "^3.2.0"
+
+"@aws-cdk/aws-servicediscovery@1.85.0":
+  version "1.85.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-servicediscovery/-/aws-servicediscovery-1.85.0.tgz#6c45a402a42a0994c7aa0977d830723b2b711ef5"
+  integrity sha512-7lpKO8cTA6TYJ9q8oirey0MnFT6S60wi9GYvs/ugEK7Uti5cal+aqS1hp6SoG+8anRDKYH6WwvCJ8JA88ZtWJg==
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.85.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.85.0"
+    "@aws-cdk/aws-route53" "1.85.0"
+    "@aws-cdk/core" "1.85.0"
     constructs "^3.2.0"
 
 "@aws-cdk/aws-sns@1.85.0":
